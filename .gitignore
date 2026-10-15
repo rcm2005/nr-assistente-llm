@@ -10,6 +10,9 @@ data/raw/*.pdf
 data/raw/*.html
 data/interim/
 data/processed/*.jsonl
+!data/processed/dataset.jsonl
+!data/processed/train.jsonl
+!data/processed/test.jsonl
 models/
 outputs/*/checkpoint-*/
 outputs/*/adapter_model.safetensors
@@ -18,4 +21,3 @@ outputs/*/adapter_model.safetensors
 *.pt
 *.pth
 wandb/
-

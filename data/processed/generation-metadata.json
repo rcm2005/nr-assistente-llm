@@ -1,0 +1,1691 @@
+{
+  "started_at": "2026-10-15T23:11:52.868609+00:00",
+  "ended_at": "2026-10-15T23:34:10.095490+00:00",
+  "model": "gemini-3.8-flash-medium",
+  "requested_rows": 720,
+  "batch_size": 18,
+  "parallel_calls": 2,
+  "status": "complete",
+  "batches": [
+    {
+      "batch_id": 0,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:11:52.869988+00:00",
+      "source_ids": [
+        "00f032bd5592ea6c",
+        "022d46e380e0ab40",
+        "02592ecad3c62383",
+        "03499cd855e4b48d",
+        "00178dd43deb680d",
+        "00ee0c718e1781de",
+        "035234e457b414cf",
+        "05ef5222609099b9",
+        "02c1c49b8e4f8b6d",
+        "04345ba07c35ae1a",
+        "03de2b872bcf2029",
+        "034842791e58bef1",
+        "0973a01cdadcab95",
+        "0360e11124f0e0f5",
+        "07292746daa804c1",
+        "03bcf66e01230276",
+        "0591d0cc28478b0e",
+        "08fb724762c9e459"
+      ],
+      "attempts": [
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:11:52.870027+00:00",
+          "ended_at": "2026-10-15T23:13:01.556444+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:13:01.558516+00:00",
+      "successful_account": "g2",
+      "row_count": 18,
+      "output_sha256": "f1c4f6c816f8e0ce41a7caa66a3cfdca7bbfe5ef60b79d49b033b86ee43f56e0"
+    },
+    {
+      "batch_id": 1,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:11:52.872609+00:00",
+      "source_ids": [
+        "044d7f6686e638a0",
+        "0ae7a07da5f19902",
+        "03ea2989b3259725",
+        "0883a5488ee1dae0",
+        "09c667b7befcee74",
+        "05b38aceb36ade69",
+        "090129564de73060",
+        "045db66df6887034",
+        "0bbd1737a65eb5c8",
+        "073ace95bd73bc23",
+        "174412afb58ce02a",
+        "0b47bdb376a188e8",
+        "06ece8663d38acc2",
+        "099337ac098535d8",
+        "0473d088375f77c3",
+        "12315d4395a208c7",
+        "0e9772c57cf19f34",
+        "19c54f99c4a77c41"
+      ],
+      "attempts": [
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:11:52.872647+00:00",
+          "ended_at": "2026-10-15T23:12:20.200055+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g6",
+          "started_at": "2026-10-15T23:12:21.200288+00:00",
+          "ended_at": "2026-10-15T23:13:11.889111+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:13:11.890738+00:00",
+      "successful_account": "g6",
+      "row_count": 18,
+      "output_sha256": "f25eb222df7eef2d97e0d52ee2ad2d1ff47ca2759599c01172ed1494a846ffc7"
+    },
+    {
+      "batch_id": 2,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:13:01.560310+00:00",
+      "source_ids": [
+        "0bea16a26ed5740c",
+        "076bc8d2de83bdd9",
+        "10a9f5449b7f0871",
+        "055f72e076fa00ea",
+        "12cfa086d2cb590f",
+        "16e8e7385fde38d9",
+        "32a809d0de00851f",
+        "0ead619e69e82458",
+        "07e6daaeccd4020c",
+        "165a6abf4e0c9f9c",
+        "05ae0a274690cfe9",
+        "14762f1f7d45ebd7",
+        "19f4de480c4a1f3a",
+        "45d348f8f2f1e697",
+        "0f15ed3182ebeb41",
+        "09b9e14b5b0ee798",
+        "1ccd18c8c043c191",
+        "064bc7537326e870"
+      ],
+      "attempts": [
+        {
+          "account": "g6",
+          "started_at": "2026-10-15T23:13:01.560337+00:00",
+          "ended_at": "2026-10-15T23:13:49.564805+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:13:49.565858+00:00",
+      "successful_account": "g6",
+      "row_count": 18,
+      "output_sha256": "24db3b2458f67bfef8baf5b28627b9cda12017b8bfe3e922925fc835dca0a0ec"
+    },
+    {
+      "batch_id": 3,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:13:11.893395+00:00",
+      "source_ids": [
+        "1cc581b7a098f8db",
+        "1ef25f39f45426b5",
+        "5d976c4565f135a8",
+        "1123085b38691c0d",
+        "0a33e7c855c7ec87",
+        "21cb87e31fcf45d7",
+        "06a3a4974174bb6f",
+        "1f5f07c43cb50efd",
+        "28f2c2f6a5eb1325",
+        "63e0703f451d6cd8",
+        "119b894b8ff1bfc5",
+        "0c50978a09299a3e",
+        "23ca4152dcc07efa",
+        "07cb51b28cfd10d5",
+        "2466210eb00dd30d",
+        "31879946b31d7d90",
+        "66d81f15d6fe6885",
+        "16eb904ffd96189d"
+      ],
+      "attempts": [
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:13:11.893428+00:00",
+          "ended_at": "2026-10-15T23:14:07.148808+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:14:07.150454+00:00",
+      "successful_account": "g7",
+      "row_count": 18,
+      "output_sha256": "e6d9b9072b486fa7df24afea54c53b2028be365597678f105b7d6e1b39b111d1"
+    },
+    {
+      "batch_id": 4,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:13:49.566827+00:00",
+      "source_ids": [
+        "0d73f1c816f5766c",
+        "28d9f3cc795387d7",
+        "07e4c8eefcf4f23c",
+        "274d67c8df05781b",
+        "338e9d6a9100bdb8",
+        "69b3c91051d97637",
+        "184fd986cd7bbb58",
+        "0dc22b3cd6ee032d",
+        "291b81c4e28f876e",
+        "084285afe300613f",
+        "2a352ceab674bd41",
+        "372da6b6a92a9d5a",
+        "6e40c0e93d6b37d8",
+        "19b6863ccd01cc07",
+        "112612a376d031f3",
+        "2a93bf9514aadff7",
+        "08c461e95b9dc828",
+        "3607fc118caffbd2"
+      ],
+      "attempts": [
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:13:49.566848+00:00",
+          "ended_at": "2026-10-15T23:14:15.540833+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:14:16.541093+00:00",
+          "ended_at": "2026-10-15T23:15:24.234110+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:15:24.235973+00:00",
+      "successful_account": "g2",
+      "row_count": 18,
+      "output_sha256": "27028af5d50b71fe51edf1202b36b270a469d354160d6707b9b347a2c1644e5b"
+    },
+    {
+      "batch_id": 5,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:14:07.152189+00:00",
+      "source_ids": [
+        "3c8b5a5669ac6c89",
+        "71dca8fcd56cdbeb",
+        "1b0f7906218c1bb4",
+        "12eb3efce3b4e7ae",
+        "39dddfc755dc9ba2",
+        "0a1a52a725c93eaa",
+        "3807da768b1c994a",
+        "3fbf0a7840300ac5",
+        "7563518198106fdb",
+        "1e04ab4812587c8c",
+        "13ac1e538522937d",
+        "3b7247455573fb69",
+        "0a84a3c8c9352f57",
+        "412e642a9877862c",
+        "4077ede75801120b",
+        "774a797ced89d593",
+        "227c0b87256e2d56",
+        "18eb51d23d000801"
+      ],
+      "attempts": [
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:14:07.152223+00:00",
+          "ended_at": "2026-10-15T23:15:03.258105+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:15:03.259686+00:00",
+      "successful_account": "g2",
+      "row_count": 18,
+      "output_sha256": "dcb4352f820f64572536131d7ccccad0915a8551bbd17b641bc03aa805a94708"
+    },
+    {
+      "batch_id": 6,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:15:03.260907+00:00",
+      "source_ids": [
+        "3cd44d91824e9a0f",
+        "0b98afce3daaa102",
+        "427237cde5ea4e73",
+        "4736b5da3b5d6707",
+        "8139a298a45469fd",
+        "276d337ce8868cff",
+        "19994e02ddd43665",
+        "3d3ad0bad28ac4a3",
+        "0cf1942200f0369d",
+        "4373170190880cb3",
+        "48fdcffd4530146e",
+        "87c9913ebf9f9bc3",
+        "292c479c2854d880",
+        "1a27f1305bcbff2b",
+        "3f8613663cd86610",
+        "0d3b20e68181f04b",
+        "445e249e13d67ebd",
+        "4b3a03aed543b7d7"
+      ],
+      "attempts": [
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:15:03.260941+00:00",
+          "ended_at": "2026-10-15T23:15:59.084287+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:15:59.085347+00:00",
+      "successful_account": "g4",
+      "row_count": 18,
+      "output_sha256": "b84c8790e604845c16aefde5d5f81fda4d759c3d0e1b5b43b5de2083b64ab426"
+    },
+    {
+      "batch_id": 7,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:15:24.237420+00:00",
+      "source_ids": [
+        "8bce69adc23acfde",
+        "297ecd18c75d247e",
+        "1b492484c560aa7e",
+        "41095ebf5f81499d",
+        "0ddc101fd4e840b1",
+        "47c415465c7acba9",
+        "4bba3d1ffb1d4d18",
+        "90f2222e7ee0ece4",
+        "2fa68b8363a6af6a",
+        "1caca914e86fd643",
+        "434e4ed3d606bf62",
+        "0e978dd8d6e1d64b",
+        "4bc51158ae0a60c2",
+        "508fe2db9d3b56cf",
+        "a941a523335f965c",
+        "30fa196d875e2ce3",
+        "1d1caa66741b1c5e",
+        "4c1358e74ec8823b"
+      ],
+      "attempts": [
+        {
+          "account": "g6",
+          "started_at": "2026-10-15T23:15:24.237446+00:00",
+          "ended_at": "2026-10-15T23:15:43.755857+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:15:44.756048+00:00",
+          "ended_at": "2026-10-15T23:16:31.681334+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:16:31.683038+00:00",
+      "successful_account": "g7",
+      "row_count": 18,
+      "output_sha256": "b11b27d5307a4b96e6efe77d2ad2a478492700654b1b3ee0e9b69ea272f26384"
+    },
+    {
+      "batch_id": 8,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:15:59.086307+00:00",
+      "source_ids": [
+        "0f50cc699a2d714e",
+        "4de004585baff78f",
+        "5a0b3e64133e3141",
+        "b94ff041c24a5865",
+        "31a4af6aa60a9c01",
+        "1e5ad796ba165483",
+        "4ee57017e979d57f",
+        "0fdd830f997f82df",
+        "53220d1de28662e3",
+        "5b727a68f7e78a11",
+        "bec22c06e41730fe",
+        "323057ca59a71229",
+        "1ff07aad4ddc1c26",
+        "503e5cd67bed73fa",
+        "10059c7e7fa17d22",
+        "575c11927cce5286",
+        "5e2c8f55294439b7",
+        "bfdb2374f6c92e68"
+      ],
+      "attempts": [
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:15:59.086327+00:00",
+          "ended_at": "2026-10-15T23:17:04.097649+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:17:04.099856+00:00",
+      "successful_account": "g7",
+      "row_count": 18,
+      "output_sha256": "38f33dd3ae5d0eb680222e2083c34950b1abf69b246b051dec34e1560a7f8ca9"
+    },
+    {
+      "batch_id": 9,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:16:31.685449+00:00",
+      "source_ids": [
+        "34a929344d872f69",
+        "20e5169272c0e1e5",
+        "55f06349cb2b8cd2",
+        "1088344758605340",
+        "58615cbb2f6cf686",
+        "5f0139d3485ecbf9",
+        "ca20fd189ddf0400",
+        "36d33782d48867bb",
+        "21ad2438ae68484a",
+        "5ced4654b5cf8677",
+        "110d28350835e00c",
+        "599501adb343ef8a",
+        "69846ed0d980ad10",
+        "cade49f477718f06",
+        "375183dc760153b3",
+        "23bea1e2ca9810fe",
+        "60a66fa2225743b4",
+        "112fe9d6cae3154e"
+      ],
+      "attempts": [
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:16:31.685480+00:00",
+          "ended_at": "2026-10-15T23:17:29.212269+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:17:29.213280+00:00",
+      "successful_account": "g8",
+      "row_count": 18,
+      "output_sha256": "506d228ed0a3139be6c365890581e5abe54aa9bc3b012278b6d2da937c03f6cf"
+    },
+    {
+      "batch_id": 10,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:17:04.101786+00:00",
+      "source_ids": [
+        "5ce4841beacfeca8",
+        "78e03973a039f952",
+        "cd1c7e15ff72ca64",
+        "39ba721f5590bdf1",
+        "26012f9031803f0b",
+        "6cf2046997b73f62",
+        "130b7e38f40af5a3",
+        "5fe462d7fdefca08",
+        "8d98f7ca42c6f2f0",
+        "d087644883fed992",
+        "3ab3ff94df17005f",
+        "2604a6d5a74bc99e",
+        "6f6243a37a40fb0f",
+        "137c52ab5fce72b5",
+        "5fed2408eedcf7af",
+        "956bf8b5e5a8e498",
+        "d7d8e2d2d2a69cae",
+        "3ca6e62d13c8e298"
+      ],
+      "attempts": [
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:17:04.101814+00:00",
+          "ended_at": "2026-10-15T23:17:20.748693+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:17:21.748878+00:00",
+          "ended_at": "2026-10-15T23:18:26.305359+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:18:26.306696+00:00",
+      "successful_account": "g4",
+      "row_count": 18,
+      "output_sha256": "5b4fa502a0242d481402a82121212e5045f682e22349012348086d422ebef7c6"
+    },
+    {
+      "batch_id": 11,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:17:29.214064+00:00",
+      "source_ids": [
+        "260c0efe84c89b0c",
+        "73d3acaab943d823",
+        "141c15d6e15fd698",
+        "679b9e3fe66aed88",
+        "99c2ad8745ad3213",
+        "d9abbdaa5670d640",
+        "3cb405d4904d30de",
+        "269f0ba9cf4adb19",
+        "7c00ff60dce28671",
+        "14ba9604260f69eb",
+        "689297fa88bbab0f",
+        "a119ede7eebc7c12",
+        "dbfb81a94409bccc",
+        "40107d67c43f4be9",
+        "26a1d67acd4d639b",
+        "7ca35d81de7b2fab",
+        "150e29509af0f3ec",
+        "6c972a74bd0654bd"
+      ],
+      "attempts": [
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:17:29.214082+00:00",
+          "ended_at": "2026-10-15T23:18:21.055454+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:18:21.056678+00:00",
+      "successful_account": "g4",
+      "row_count": 18,
+      "output_sha256": "9140993bb5e99393a3e9f431d1987c49af9b4507361a5f6c2dfa4a44fdfec7d7"
+    },
+    {
+      "batch_id": 12,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:18:21.057848+00:00",
+      "source_ids": [
+        "a2dddf0f0995b7d2",
+        "e175dc8be90f0f04",
+        "4123057b941dcae0",
+        "28b0575ec2b5e5f7",
+        "7cba0d314c21d8e2",
+        "159e7043439b9393",
+        "72d1f3a2d790e80f",
+        "a8b6b7254fe04f72",
+        "e39515ae81a871bb",
+        "4397c058f0e76ac9",
+        "2bc0a30cf38b85a5",
+        "7d44dbf79097964a",
+        "15d579d949aaa6df",
+        "74fd777391997e58",
+        "ac82d7586ca07e56",
+        "ee9296976461388e",
+        "4432fb12e11167f1",
+        "2d91a9210cffc4dd"
+      ],
+      "attempts": [
+        {
+          "account": "g6",
+          "started_at": "2026-10-15T23:18:21.057873+00:00",
+          "ended_at": "2026-10-15T23:19:13.011671+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:19:13.013327+00:00",
+      "successful_account": "g6",
+      "row_count": 18,
+      "output_sha256": "e1228341cf55c29b740433b8f9cf64dbef8749a5c0bfb0310808dd45836ecacb"
+    },
+    {
+      "batch_id": 13,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:18:26.307734+00:00",
+      "source_ids": [
+        "7f43941831741228",
+        "15f884dc34f29d9f",
+        "75fa303c796169d8",
+        "ae63e8e557958e22",
+        "f27c41d783f27027",
+        "447204c9fd7aa90b",
+        "2e33adfc19a04a9e",
+        "86e350cf67e67b6a",
+        "16c249c2bc5d505c",
+        "771386b9e6d39683",
+        "b5f98bad1bfb633b",
+        "f79600217abcc977",
+        "4b248e021fed1c45",
+        "30a4119908c52e61",
+        "8f8c704aa92ad102",
+        "16d174db9e779924",
+        "7c75b47e9110a46a",
+        "b73b02a1dd865811"
+      ],
+      "attempts": [
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:18:26.307763+00:00",
+          "ended_at": "2026-10-15T23:18:43.751289+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:18:44.751566+00:00",
+          "ended_at": "2026-10-15T23:19:42.946439+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:19:42.948567+00:00",
+      "successful_account": "g8",
+      "row_count": 18,
+      "output_sha256": "9c6d837348d5988188078f0c6da646ed80215fadbf744b3cc24aed54c06b4316"
+    },
+    {
+      "batch_id": 14,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:19:13.014514+00:00",
+      "source_ids": [
+        "fc7bd20f5676bb24",
+        "4e8e37c2b1062003",
+        "30e8a4e9d56379a6",
+        "9b12f1ace54720b5",
+        "1739e19bdec72edd",
+        "7f47b12e2531284d",
+        "b7ebb4c243da267d",
+        "4f578286885a5350",
+        "30ff5f6308f4e8d1",
+        "9d278d9440722304",
+        "17d23bdc513da87b",
+        "88557d4a601e201f",
+        "bf13fcd3f48b7a6b",
+        "525f8afb4a7aec3a",
+        "3198448d8c173766",
+        "a7cf3d1c9de0673c",
+        "17e2335dcc64c63c",
+        "8c8d896ca715d969"
+      ],
+      "attempts": [
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:19:13.014542+00:00",
+          "ended_at": "2026-10-15T23:19:28.685782+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:19:29.686006+00:00",
+          "ended_at": "2026-10-15T23:20:19.484173+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:20:19.486031+00:00",
+      "successful_account": "g2",
+      "row_count": 18,
+      "output_sha256": "4be4c8395c54a44d4adbcef595c71edeea067e516a046895f65f67c0048b10af"
+    },
+    {
+      "batch_id": 15,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:19:42.950752+00:00",
+      "source_ids": [
+        "c6bc2a87017cdcd8",
+        "526fb40275a424ab",
+        "32df18bae370b7c8",
+        "aa3f01802029f04c",
+        "187308d1ff3b9c7c",
+        "8e63bb06e4b79969",
+        "cf0a22c26e1ed530",
+        "57a927332c148462",
+        "32fb5d9c709bf3bc",
+        "aaa75e63731ba05c",
+        "187c1f92a79a9674",
+        "922aa065f1b9d138",
+        "d031bead13a90936",
+        "594fb12f5b1857d2",
+        "33f69c3b3172df3b",
+        "ab2042137cffbe6a",
+        "190efc6a13215644",
+        "92d472ee915c0c64"
+      ],
+      "attempts": [
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:19:42.950878+00:00",
+          "ended_at": "2026-10-15T23:20:03.933587+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:20:04.933782+00:00",
+          "ended_at": "2026-10-15T23:21:18.384545+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:21:18.386087+00:00",
+      "successful_account": "g4",
+      "row_count": 18,
+      "output_sha256": "2ff0c6509859de90b64991595762ebe6007c3b0ab1e6a3f717507594a0305e1a"
+    },
+    {
+      "batch_id": 16,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:20:19.488512+00:00",
+      "source_ids": [
+        "d7de204484edc9ee",
+        "5c5dc3a3df4578ae",
+        "3409521c7ccddd6e",
+        "ab9f1a5010cdb297",
+        "1944af1696a59ac8",
+        "9649c72315f5e993",
+        "db4fd9d4f5be1ab0",
+        "5f67ce5cdc078c78",
+        "354860bc18c6109d",
+        "ae207b912f6b4591",
+        "19af0adf555fa09a",
+        "9826aa5d8d20aa49",
+        "dba05a24bcba4bce",
+        "605a7fb25dd53b5b",
+        "35a35d3c9b20a40d",
+        "b42fbe353e8b4928",
+        "1a84f4b5349856ce",
+        "9e7f69e6d6fa0083"
+      ],
+      "attempts": [
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:20:19.488543+00:00",
+          "ended_at": "2026-10-15T23:21:14.542138+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:21:14.543195+00:00",
+      "successful_account": "g4",
+      "row_count": 18,
+      "output_sha256": "54b971b71391e7d654194d999ba12ffe89fd9368fa35987dbd8e97527e085f03"
+    },
+    {
+      "batch_id": 17,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:21:14.544227+00:00",
+      "source_ids": [
+        "e0a02ad094478303",
+        "60a69011955f058c",
+        "360c75f383663bd0",
+        "b5cc8187c95dc9aa",
+        "1ad1805848c50ef6",
+        "a3f74b5ac8e6a9ec",
+        "e0c8572ce3750f0f",
+        "6159ba4feac44b4f",
+        "36ec6ed318227d94",
+        "b64efafd11c17aa1",
+        "1ba5777eec983f56",
+        "a42d6b55c7c9fb2c",
+        "e3aa07290fba18b7",
+        "62e2d75e5f563660",
+        "370b0c1466c770dd",
+        "be2a7b9cbceb8f48",
+        "1bee544ad7bb5fe2",
+        "a59b7276200554e0"
+      ],
+      "attempts": [
+        {
+          "account": "g6",
+          "started_at": "2026-10-15T23:21:14.544252+00:00",
+          "ended_at": "2026-10-15T23:22:18.160242+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:22:18.161242+00:00",
+      "successful_account": "g6",
+      "row_count": 18,
+      "output_sha256": "8b5b18c96a41b0666804fcaafee3ac51ee4ffe53a2522b1ca0d574a033688854"
+    },
+    {
+      "batch_id": 18,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:21:18.387245+00:00",
+      "source_ids": [
+        "e8e73fb8765018c7",
+        "635cdae67c02847a",
+        "37d05951882a6c00",
+        "c58223d41bfbf6a6",
+        "1d0d4f0265d37b90",
+        "a5d717c8da24b2d6",
+        "e910a5c5f1d4a230",
+        "65a484162c2d7215",
+        "3ad48455677be03c",
+        "ca16953bae75a296",
+        "1dc0126f58d7045c",
+        "aa484ad49036dabf",
+        "ed38b30b22d2cd9a",
+        "66635e1eeb3b24d7",
+        "3aecf67a54dfd171",
+        "cddf89c784fc182f",
+        "1e944662bca2547e",
+        "ac957b19158a201c"
+      ],
+      "attempts": [
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:21:18.387269+00:00",
+          "ended_at": "2026-10-15T23:21:37.624810+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:21:38.625002+00:00",
+          "ended_at": "2026-10-15T23:22:39.910937+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:22:39.911935+00:00",
+      "successful_account": "g8",
+      "row_count": 18,
+      "output_sha256": "107d8ca3a2c67643f7a18db93a903e4e4f16b66695df24db635387b4370c1089"
+    },
+    {
+      "batch_id": 19,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:22:18.162233+00:00",
+      "source_ids": [
+        "f5396a213c7cb179",
+        "674becea4639a465",
+        "3bc0a23aa20d7a90",
+        "d2fc3f1dbb69e430",
+        "1ea90d17248c67af",
+        "af3cda4ae0f2056a",
+        "f85546080279f2d5",
+        "67ab90773fac576d",
+        "3daf0ae3439914ab",
+        "d889097bd5e1f701",
+        "2036aea5e3b52450",
+        "b20a5f04a56b8da2",
+        "f9fc10af78f5f3c7",
+        "67ad652ee518667e",
+        "3e57edf4305e2122",
+        "dcaad48122bed460",
+        "20e17a16bdfbce95",
+        "b507e7eb4485803e"
+      ],
+      "attempts": [
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:22:18.162252+00:00",
+          "ended_at": "2026-10-15T23:23:18.742840+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:23:18.745028+00:00",
+      "successful_account": "g8",
+      "row_count": 18,
+      "output_sha256": "309754d766dc739461e275dd4472310aeff94986995d49c0112ab9bc6714e560"
+    },
+    {
+      "batch_id": 20,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:22:39.912862+00:00",
+      "source_ids": [
+        "f9fef0a2d5c1688a",
+        "6a930aa8c2d8637c",
+        "3f20f5f9779f09ba",
+        "dfffdc92e2fb6f30",
+        "21743f0fb114b06c",
+        "b91371a5d23450f5",
+        "fa5e36c389cb4d43",
+        "6b6a318beec69312",
+        "404fc83d64a6db48",
+        "e034070c3d49b89c",
+        "22ac66d14c17d25a",
+        "be6d27625479a440",
+        "6bc5889d1dde4225",
+        "4342540578ef3e23",
+        "e13bf205cf914b39",
+        "232631e80d3b1297",
+        "bfba316c0b850767",
+        "6d2e6eb83a79b00f"
+      ],
+      "attempts": [
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:22:39.912881+00:00",
+          "ended_at": "2026-10-15T23:23:29.391357+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:23:29.392419+00:00",
+      "successful_account": "g2",
+      "row_count": 18,
+      "output_sha256": "f58bb881b664b86d65a0abcd7ebec92425483ea63e8b6fcbab765b55145723bb"
+    },
+    {
+      "batch_id": 21,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:23:18.746384+00:00",
+      "source_ids": [
+        "437f6ca1c5276f5e",
+        "e223f454307f8cc8",
+        "238c30148099dc7d",
+        "c82271b46ae43ae8",
+        "6d69683f1fbb7baf",
+        "4441022ab7f1faea",
+        "f14c3c5ee25ee7f2",
+        "23fb6e347f630064",
+        "cb8bf6cc9e92306e",
+        "72b2dd8c775f8671",
+        "4549f7a494c01d63",
+        "f6d304cf6858cd97",
+        "24cc59f4005efb1c",
+        "d22873ad28ea7db0",
+        "734b744588f0ef15",
+        "4606b53f50610314",
+        "fa34ac93173f6ec9",
+        "250ce9f00969f217"
+      ],
+      "attempts": [
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:23:18.746412+00:00",
+          "ended_at": "2026-10-15T23:24:33.755811+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:24:33.756328+00:00",
+      "successful_account": "g4",
+      "row_count": 18,
+      "output_sha256": "a80fd9c660a27d8ca06c8be0fc9b0c6c40921307ec017affc00a35202130ab5e"
+    },
+    {
+      "batch_id": 22,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:23:29.393337+00:00",
+      "source_ids": [
+        "d46cce86fdd29691",
+        "75e1f8c8b6b8d450",
+        "4612a51786bdcfd4",
+        "fd2cf37867b4080f",
+        "253980b4e8712430",
+        "dd9be235a139e1cc",
+        "75e7ead2b6822ed8",
+        "462223ea67b6efe4",
+        "ff0d9a298e2d30a0",
+        "270cae91a97093c1",
+        "e24af4a6cd7b3ab3",
+        "764ea207a07e226a",
+        "469efeee17e0e35a",
+        "27683cf85237229a",
+        "e276587f7162986c",
+        "76f51a8d9e908f48",
+        "4884811ae0a09ab3",
+        "279fb8d267c3520e"
+      ],
+      "attempts": [
+        {
+          "account": "g6",
+          "started_at": "2026-10-15T23:23:29.393358+00:00",
+          "ended_at": "2026-10-15T23:24:41.085627+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:24:41.087142+00:00",
+      "successful_account": "g6",
+      "row_count": 18,
+      "output_sha256": "a0a919bb1bee6d81dff895031a34b18d6dad7b129f885d6002123b19e08f46d6"
+    },
+    {
+      "batch_id": 23,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:24:33.756856+00:00",
+      "source_ids": [
+        "e4c944664b3d18f9",
+        "7d339e7ceb5e70d0",
+        "4b24653e7c1a1e2b",
+        "27e8f58cec7274e6",
+        "e669e80f6ae985fb",
+        "7e3edef9ba10b5c7",
+        "4c43fd86cb2efd14",
+        "28842bdf454ce956",
+        "e769fa13bc908d18",
+        "7ee7206ebdf3d392",
+        "4f2d721774891a70",
+        "290dc17fb19f943f",
+        "e80ecb3cb3ef52ad",
+        "8062100e0d772211",
+        "5092ffab1a740cfb",
+        "2965ef3f35621cad",
+        "ef1c016c91c531cf",
+        "8135dd91cf8a2983"
+      ],
+      "attempts": [
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:24:33.756866+00:00",
+          "ended_at": "2026-10-15T23:25:00.456620+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:25:01.456846+00:00",
+          "ended_at": "2026-10-15T23:26:01.853590+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:26:01.855271+00:00",
+      "successful_account": "g8",
+      "row_count": 18,
+      "output_sha256": "49c264cdb4267f8a94c04f832a1fe2cf9c06f28293b26bb5f40e161db66b95ac"
+    },
+    {
+      "batch_id": 24,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:24:41.088501+00:00",
+      "source_ids": [
+        "519987d1b2fdb834",
+        "29ae923d83c719c4",
+        "ef9f89afbd6de678",
+        "83463bf2c40691a7",
+        "534db1abe31e9cd6",
+        "29ebbab9a4d688fe",
+        "f1fb1eba46590ef3",
+        "8360098df4b1245f",
+        "54e56ac363e317c3",
+        "2a310a773257cad5",
+        "f3de6f39c4bcb4ff",
+        "85786ff44a31c232",
+        "550bef310a45f639",
+        "2bc0ff0cf79a40eb",
+        "f51c52fb129cb69b",
+        "863d2f75ce7bdd55",
+        "57c19d49e8f7a4ad",
+        "2bc9275c3eaa084d"
+      ],
+      "attempts": [
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:24:41.088533+00:00",
+          "ended_at": "2026-10-15T23:25:58.682440+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:25:58.702348+00:00",
+      "successful_account": "g8",
+      "row_count": 18,
+      "output_sha256": "70b678b4471165489baad6658742ff7b43e367d7ae2da4e1f770d8f4113cc21a"
+    },
+    {
+      "batch_id": 25,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:25:58.703603+00:00",
+      "source_ids": [
+        "f5ad56f03aabea9b",
+        "88dc4bdd18e8c6b4",
+        "58f4c9769f1d8778",
+        "2c17097c84059193",
+        "f5feb14bfebf318d",
+        "8d1f5f3640275298",
+        "59605b1762a0bec4",
+        "2c3b157796e6fab2",
+        "f7444975e2c00e45",
+        "8d276d6142690592",
+        "596e32e0d0eabc56",
+        "2c779111369dfc0a",
+        "f79878d8086ffbb6",
+        "8e596470230e3ec0",
+        "598f4115f16f70e7",
+        "2cd9ae7dfeba9f07",
+        "fa7eb95d79389ebd",
+        "8e794a52febb91a0"
+      ],
+      "attempts": [
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:25:58.703628+00:00",
+          "ended_at": "2026-10-15T23:26:56.750633+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:26:56.751679+00:00",
+      "successful_account": "g2",
+      "row_count": 18,
+      "output_sha256": "bcb7658045da660be0100a8736fee1a3aecc44dd8402a61407e9f727e36eb42c"
+    },
+    {
+      "batch_id": 26,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:26:01.857873+00:00",
+      "source_ids": [
+        "5e168d0c07fcb138",
+        "2d336dd993139f85",
+        "fb2720554401de95",
+        "8fe8ca15ce875b04",
+        "5e6168a458cc4832",
+        "30864662fd5106b8",
+        "913f46c40d41c276",
+        "5efa46099fd2cc72",
+        "31c6bf206933ad6c",
+        "916e330d36159b03",
+        "5f97e24b0375df19",
+        "31e8c9ea1239889c",
+        "9190b13184f72043",
+        "626af387d3fc906a",
+        "33a26a2eda8fd182",
+        "9311ebbea89e7d09",
+        "6300dc360e68f8af",
+        "355957d26ed866c5"
+      ],
+      "attempts": [
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:26:01.857903+00:00",
+          "ended_at": "2026-10-15T23:26:51.079984+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:26:51.080986+00:00",
+      "successful_account": "g4",
+      "row_count": 18,
+      "output_sha256": "0d9d422306173445931316041a28fb17ca9dd584c7a14c84460e759810b5435f"
+    },
+    {
+      "batch_id": 27,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:26:51.082213+00:00",
+      "source_ids": [
+        "9a83c68b41b71e15",
+        "6352229bd41f48ec",
+        "35fd8b90694b6d8a",
+        "9b722cdc259284c7",
+        "64e9e7227bec7def",
+        "366c9600cb588b7e",
+        "9e601b5b41f10710",
+        "65a022971e7a091b",
+        "369f07f9ad40fcd1",
+        "a0759861c735beb1",
+        "6737b4066d3cd8db",
+        "36e4325d97f77bd5",
+        "a1e2ce6227b56058",
+        "6ac863efdb186fea",
+        "37e6a0bc4ae95c38",
+        "a238f3b2e8b904b7",
+        "6b34af660d5be877",
+        "37fc2fa99c64f5bd"
+      ],
+      "attempts": [
+        {
+          "account": "g6",
+          "started_at": "2026-10-15T23:26:51.082244+00:00",
+          "ended_at": "2026-10-15T23:27:13.804577+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:27:14.805201+00:00",
+          "ended_at": "2026-10-15T23:27:37.692318+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:27:39.692651+00:00",
+          "ended_at": "2026-10-15T23:28:31.386142+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:28:31.387813+00:00",
+      "successful_account": "g8",
+      "row_count": 18,
+      "output_sha256": "83d2b49567a7bcc720c1fa156201747d08cef4448712de032e813f5d2dd7e1de"
+    },
+    {
+      "batch_id": 28,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:26:56.752626+00:00",
+      "source_ids": [
+        "a2c59ca59b44b3b7",
+        "6bb6f277fc05b050",
+        "38f1330ebcbf64d2",
+        "a42170a4d3895ee4",
+        "6d202174a9e96273",
+        "39238205af193ae5",
+        "a501647719839950",
+        "6d4a7e56bc945cfc",
+        "3a5d08293c223aa0",
+        "a5e1b653494f6c7b",
+        "7079b2028dd4f85e",
+        "3a9822639257f8c8",
+        "a5ee39f8e2ea4eb1",
+        "7112c86930ce3683",
+        "3b3ff97feb34113f",
+        "b02d6cd37b84753b",
+        "71b4c124fb3c6cd6",
+        "3b69ad094f7a8756"
+      ],
+      "attempts": [
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:26:56.752646+00:00",
+          "ended_at": "2026-10-15T23:28:02.617040+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:28:02.618691+00:00",
+      "successful_account": "g7",
+      "row_count": 18,
+      "output_sha256": "ae5f507ae16cc7cd4b29526bfa793b7fe6cc88bf5d22d66b35f1a98729747b15"
+    },
+    {
+      "batch_id": 29,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:28:02.619880+00:00",
+      "source_ids": [
+        "b434f69751a6ca72",
+        "73d20aeb663a4d2e",
+        "3c381cbb4c8c7dc2",
+        "b766da67eb6e9f2c",
+        "75ea46a01f234fa9",
+        "3e8ef45a4e3fa73a",
+        "b8443d0d255574e0",
+        "765eb48d210a36a8",
+        "3efb86077a5161d1",
+        "b849429506faf352",
+        "767db286b026e111",
+        "3f85db85f6e8ce10",
+        "baac2d9c77ed4e47",
+        "78b63edf7a39463e",
+        "3fa7eaf76d65dff4",
+        "bbdcd5bdbf91a408",
+        "790e6c46dd644942",
+        "406bef33c5338c0b"
+      ],
+      "attempts": [
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:28:02.619906+00:00",
+          "ended_at": "2026-10-15T23:28:42.219085+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:28:42.220733+00:00",
+      "successful_account": "g8",
+      "row_count": 18,
+      "output_sha256": "76f158f7441f62d169f6cc2084fbe43e0e9a0e77f441f922beb7566a215c7085"
+    },
+    {
+      "batch_id": 30,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:28:31.389620+00:00",
+      "source_ids": [
+        "bec211b91800582d",
+        "79804fb15f743a8b",
+        "408d5e0c4c34314d",
+        "c1282ae68fd85a55",
+        "798f0ddfd08bd4ad",
+        "42d0778fd68ee36b",
+        "c218913aa7cab272",
+        "7a451bcdf09c2eb3",
+        "43603a3c1261d354",
+        "c281e3dce51f829a",
+        "7b35adf1176fed99",
+        "439d79df3e0da9da",
+        "c33ae6230c344cad",
+        "7c1e8480967ac600",
+        "43a9498482c7d1d2",
+        "c3b9bdcf8104fd86",
+        "7c3628b5e1c7a696",
+        "44cc7a80e7146060"
+      ],
+      "attempts": [
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:28:31.389646+00:00",
+          "ended_at": "2026-10-15T23:29:30.296851+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:29:30.298460+00:00",
+      "successful_account": "g2",
+      "row_count": 18,
+      "output_sha256": "ad2a295e98aa1c4ef9121fea3e8a6e406c3fe7648172c8fb240dc1b457ab9141"
+    },
+    {
+      "batch_id": 31,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:28:42.222044+00:00",
+      "source_ids": [
+        "c4721bfc1bfa2f34",
+        "7eb68bfbb827b5ea",
+        "4507ab75519de75b",
+        "c9ac14db8a747c21",
+        "84415d501b8195e6",
+        "4545f640f601a319",
+        "ccd45cd7fcdfb663",
+        "8459eb661be9363d",
+        "47ccd9680f853007",
+        "cdddac345f0d8536",
+        "856b64c3344c10db",
+        "48137a5829a8fd6e",
+        "d7686bcf2337bd83",
+        "858cae2b46daf726",
+        "492729d1805397e4",
+        "d809fd7bf72aa250",
+        "8a25a85121928cd2",
+        "499a89a582cf237d"
+      ],
+      "attempts": [
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:28:42.222069+00:00",
+          "ended_at": "2026-10-15T23:29:44.758579+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:29:44.759567+00:00",
+      "successful_account": "g4",
+      "row_count": 18,
+      "output_sha256": "624408031269fdb46e34435a2b0c3ae98f0b27834da9d8d47792b638800006b6"
+    },
+    {
+      "batch_id": 32,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:29:30.299644+00:00",
+      "source_ids": [
+        "d9339be33fddceba",
+        "8b0f8abd474dcc3f",
+        "49ad5178b05d778d",
+        "d9e675ecd1f01fa1",
+        "8b409dec652422e1",
+        "49c48a2bc7b333ec",
+        "e9e11db1d12c3639",
+        "8d93e08a51f53337",
+        "4aa10b2c67e5cd4f",
+        "eaf1aa2d2db32bfd",
+        "8d98bfa77cbd462c",
+        "4bcdd43fd65d90b4",
+        "eb5d63e92064fb16",
+        "8eeb20f5f212b1df",
+        "4c510d1e47e4607e",
+        "ed254dab95615dfc",
+        "912973a0dacb8369",
+        "4c72d50972e96e70"
+      ],
+      "attempts": [
+        {
+          "account": "g6",
+          "started_at": "2026-10-15T23:29:30.299668+00:00",
+          "ended_at": "2026-10-15T23:30:25.536637+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:30:25.537685+00:00",
+      "successful_account": "g6",
+      "row_count": 18,
+      "output_sha256": "3cb7b5ad0047f20806e8658fdf851ff36eded1157bdba2ea5f22741da8b21216"
+    },
+    {
+      "batch_id": 33,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:29:44.760505+00:00",
+      "source_ids": [
+        "edd49ba848859373",
+        "9153e34f0ae3a3ed",
+        "4d9de291a63fd128",
+        "f2970f958a558342",
+        "92ad3c9b63803aee",
+        "4dfde7a6d8e8245b",
+        "f2ababcee23a31a9",
+        "92d38a98f49fe67f",
+        "4e349d905bce3d06",
+        "f3fd01b93669b1f5",
+        "92ee91efbdf2675f",
+        "4e80023643c247c5",
+        "f822c0d9d60c3930",
+        "94da3868c40f11db",
+        "4e89ea4d9b59f74a",
+        "f8a50ca6325764da",
+        "99748037d61b6374",
+        "4f2192ba2a1d8a60"
+      ],
+      "attempts": [
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:29:44.760524+00:00",
+          "ended_at": "2026-10-15T23:31:01.989618+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:31:01.990723+00:00",
+      "successful_account": "g7",
+      "row_count": 18,
+      "output_sha256": "3f5d7eb16ea8e919907b259d944cf0e09bad9a73a42c0b9d77938c8a5d97fa74"
+    },
+    {
+      "batch_id": 34,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:30:25.538547+00:00",
+      "source_ids": [
+        "fa828c6d36b0d7e8",
+        "9bb4dbf5c4ef6151",
+        "4fbdd6f8ce01ac5d",
+        "fb2a4d00d8026a9f",
+        "9bedaecd6fcc03cc",
+        "534d5f0443dfa3fa",
+        "fbfcb70e82ce9a2e",
+        "9c15672b690b013b",
+        "55724707ce1abde2",
+        "fd4f31636ae8cf83",
+        "9d29a72ffa32bb41",
+        "5654d041d5e53569",
+        "fef8225ee1baef01",
+        "9da63233f4c2eee4",
+        "57916d9a2636e61a",
+        "ffaa34e22427f771",
+        "9df68f7b2aef2fc2",
+        "579d04974cab210d"
+      ],
+      "attempts": [
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:30:25.538566+00:00",
+          "ended_at": "2026-10-15T23:30:37.468881+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:30:38.469350+00:00",
+          "ended_at": "2026-10-15T23:31:06.845947+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:31:08.846172+00:00",
+          "ended_at": "2026-10-15T23:31:59.189926+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:31:59.190503+00:00",
+      "successful_account": "g4",
+      "row_count": 18,
+      "output_sha256": "798461cb2736d11a2e28c0086cb41ff07a1238c727bd81e5d5826c01fd0076e7"
+    },
+    {
+      "batch_id": 35,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:31:01.991636+00:00",
+      "source_ids": [
+        "ffd2a61035118a89",
+        "9ed2b44303a42d43",
+        "5841b0c407486da3",
+        "9f24fcdca992ea7f",
+        "58d7f1f67c74c4c9",
+        "a2754b45b69fb96e",
+        "59e961aec6708b02",
+        "a5b77f3688c2ff7c",
+        "5adc7f74cdfb4bc0",
+        "a948b82970a8982e",
+        "5afa1f342841427c",
+        "a9ed5d9ad6ab5fd1",
+        "5b0445a42540e8e1",
+        "aaaa11c546516601",
+        "5b61ebba52a08888",
+        "ac3295dbb5dd597a",
+        "5b72719b46678545",
+        "ac6939a89b614e83"
+      ],
+      "attempts": [
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:31:01.991665+00:00",
+          "ended_at": "2026-10-15T23:32:10.683684+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:32:10.684684+00:00",
+      "successful_account": "g2",
+      "row_count": 18,
+      "output_sha256": "7cd6f5aafc7733a7a967eb7a1331809b27ddd9696ceef50fb4d5f5e56d579fb0"
+    },
+    {
+      "batch_id": 36,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:31:59.190969+00:00",
+      "source_ids": [
+        "5bb1a3d5f42dfc0c",
+        "ad3f53481e2d1b56",
+        "5c3edf2d53460e28",
+        "ae30132719af197f",
+        "5de1082c0d92df4c",
+        "b2e93c6a15da47c3",
+        "5e2936fdbab28985",
+        "b7e618232d51a7e4",
+        "5e73d3cd81c14fc5",
+        "b89dc4d88a03cdd7",
+        "5fa0a297a3286530",
+        "b912072eb811e58c",
+        "5fec18d77bff7c8d",
+        "b9a134826540617c",
+        "601edcb405917c13",
+        "ba4521ec2a92adcc",
+        "60bf572f99e9aea7",
+        "bb043b73b760d0a4"
+      ],
+      "attempts": [
+        {
+          "account": "g4",
+          "started_at": "2026-10-15T23:31:59.190977+00:00",
+          "ended_at": "2026-10-15T23:32:44.586025+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:32:44.587172+00:00",
+      "successful_account": "g4",
+      "row_count": 18,
+      "output_sha256": "6bb3963bd813a22d7ed58d04261224dde2cc4bfddb6e57afe9dcf90e787a9ada"
+    },
+    {
+      "batch_id": 37,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:32:10.685755+00:00",
+      "source_ids": [
+        "615b034220d11ac8",
+        "bc7cc068e1c67955",
+        "6374dcaa24e191b1",
+        "bd30f31cd4b5dbbc",
+        "64a3bac6e09183c0",
+        "bd7c38fa29b7b710",
+        "657c49e42deefea7",
+        "bee9f25db6cfde7c",
+        "66139db5982e32bf",
+        "c010980b869e4e1a",
+        "66fdff5ef1642d64",
+        "c0aad709a2d95ac2",
+        "6702b709fb22cbbe",
+        "c16ca846ae7b8820",
+        "68fae4962cfb3f1d",
+        "c26eea0101738ff1",
+        "69acf1f923e8de21",
+        "c6d8e90e9bc3d789"
+      ],
+      "attempts": [
+        {
+          "account": "g6",
+          "started_at": "2026-10-15T23:32:10.685775+00:00",
+          "ended_at": "2026-10-15T23:32:28.995945+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:32:29.996100+00:00",
+          "ended_at": "2026-10-15T23:33:14.337135+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:33:14.337680+00:00",
+      "successful_account": "g7",
+      "row_count": 18,
+      "output_sha256": "099178c1a42815d188781a7575ade76cbab4c4b5c1c4cdf2d9f0f7a128694449"
+    },
+    {
+      "batch_id": 38,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:32:44.588099+00:00",
+      "source_ids": [
+        "6a61303009653be6",
+        "c79c5126faa24773",
+        "6c672e0f8e75fdeb",
+        "cb700234c92a538f",
+        "6c6f076e2cbf462d",
+        "cb96c0a43fe0cf1a",
+        "6d18ffa80c927728",
+        "cc0395ac515a528f",
+        "6f4d2cf27e4c89ee",
+        "cd1a0010cb00af68",
+        "6f7e3640297cb600",
+        "ce173efaa58d6b46",
+        "7122feb41bd78656",
+        "cf4b21b8bbcdf27f",
+        "7133d2d6d724c5f0",
+        "d21b0f478e69f15a",
+        "7135841c53728228",
+        "d43399fa1ef9422b"
+      ],
+      "attempts": [
+        {
+          "account": "g7",
+          "started_at": "2026-10-15T23:32:44.588120+00:00",
+          "ended_at": "2026-10-15T23:33:33.225810+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:33:33.226323+00:00",
+      "successful_account": "g7",
+      "row_count": 18,
+      "output_sha256": "65e0cad7beed3e94e92e79c74c0a8a7b950d948c6538e102f9b9b288d57e7e48"
+    },
+    {
+      "batch_id": 39,
+      "model": "gemini-3.8-flash-medium",
+      "started_at": "2026-10-15T23:33:14.338054+00:00",
+      "source_ids": [
+        "72a647870a6e1542",
+        "d6cee15968531889",
+        "735c5f66af0637af",
+        "d86dee5efa203838",
+        "7390a81ca449ee48",
+        "d9cb9cd4e665f97a",
+        "73cf07b6fe856b3f",
+        "d9da57752ef6c020",
+        "73d4b8a519aa79ef",
+        "da9bbc530fdcf6ed",
+        "744f1c33f57b9878",
+        "db6019bd1d39172d",
+        "7478a71f6cdec307",
+        "df8609e5e90e721b",
+        "74c9fe71e9d6cffe",
+        "dfd7e645df861b23",
+        "753bad16c4d1b2e1",
+        "e0149f94c660b4a5"
+      ],
+      "attempts": [
+        {
+          "account": "g8",
+          "started_at": "2026-10-15T23:33:14.338062+00:00",
+          "ended_at": "2026-10-15T23:33:26.523182+00:00",
+          "returncode": 0,
+          "status": "invalid_json",
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "account": "g2",
+          "started_at": "2026-10-15T23:33:27.523378+00:00",
+          "ended_at": "2026-10-15T23:34:10.086833+00:00",
+          "returncode": 0,
+          "status": "success"
+        }
+      ],
+      "status": "success",
+      "ended_at": "2026-10-15T23:34:10.087902+00:00",
+      "successful_account": "g2",
+      "row_count": 18,
+      "output_sha256": "5cba830336b83c839dc18e6df84d32fe9ce19a226a124a452e6ac5970a5448ab"
+    }
+  ]
+}
