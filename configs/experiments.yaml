@@ -1,0 +1,9 @@
+# Matriz mínima que isola tamanho, rank, taxa e épocas. Todos os runs usam GPU.
+runs:
+  - {id: q05_r8_lr2e4_e1, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 8, learning_rate: 0.0002, epochs: 1}
+  - {id: q05_r16_lr1e4_e3, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 16, learning_rate: 0.0001, epochs: 3}
+  - {id: q05_r16_lr2e4_e3, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 16, learning_rate: 0.0002, epochs: 3}
+  - {id: q05_r16_lr5e4_e3, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 16, learning_rate: 0.0005, epochs: 3}
+  - {id: q05_r64_lr2e4_e3, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 64, learning_rate: 0.0002, epochs: 3}
+  - {id: q15_r16_lr2e4_e3, model: Qwen/Qwen2.5-1.5B-Instruct, rank: 16, learning_rate: 0.0002, epochs: 3}
+
