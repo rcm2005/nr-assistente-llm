@@ -1,9 +1,19 @@
-# Matriz mínima que isola tamanho, rank, taxa e épocas. Todos os runs usam GPU.
-runs:
-  - {id: q05_r8_lr2e4_e1, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 8, learning_rate: 0.0002, epochs: 1}
-  - {id: q05_r16_lr1e4_e3, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 16, learning_rate: 0.0001, epochs: 3}
-  - {id: q05_r16_lr2e4_e3, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 16, learning_rate: 0.0002, epochs: 3}
-  - {id: q05_r16_lr5e4_e3, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 16, learning_rate: 0.0005, epochs: 3}
-  - {id: q05_r64_lr2e4_e3, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 64, learning_rate: 0.0002, epochs: 3}
-  - {id: q15_r16_lr2e4_e3, model: Qwen/Qwen2.5-1.5B-Instruct, rank: 16, learning_rate: 0.0002, epochs: 3}
+# Matriz fast-track. Resultados so existem depois que scripts/train.py terminar cada run.
+defaults:
+  train_file: data/processed/train.jsonl
+  max_seq_length: 256
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 8
+  warmup_ratio: 0.05
+  weight_decay: 0.01
+  logging_steps: 5
+  save_strategy: epoch
+  max_runtime_minutes: 11
+  seed: 47
 
+runs:
+  - {id: q05_r8_lr1e4_e1, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 8, learning_rate: 0.0001, epochs: 1}
+  - {id: q05_r8_lr3e4_e2, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 8, learning_rate: 0.0003, epochs: 2}
+  - {id: q05_r32_lr1e4_e2, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 32, learning_rate: 0.0001, epochs: 2}
+  - {id: q05_r32_lr3e4_e1, model: Qwen/Qwen2.5-0.5B-Instruct, rank: 32, learning_rate: 0.0003, epochs: 1}
+  - {id: q15_r16_lr2e4_e1, model: Qwen/Qwen2.5-1.5B-Instruct, rank: 16, learning_rate: 0.0002, epochs: 1, quantization: auto, optional: true}

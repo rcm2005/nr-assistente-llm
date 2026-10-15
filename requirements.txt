@@ -7,9 +7,9 @@ matplotlib==3.10.7
 numpy==2.2.6
 peft==0.17.1
 pymupdf==1.26.5
+PyYAML==6.0.3
 requests==2.32.5
 rouge-score==0.1.2
-torch==2.8.0
+torch==2.12.1
 transformers==4.57.1
 trl==0.24.0
-
