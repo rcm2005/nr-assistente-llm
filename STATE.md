@@ -1,6 +1,6 @@
 # Estado do projeto
 
-Última atualização: 2026-10-15 19:35 EDT
+Última atualização: 2026-10-15 19:56 EDT
 
 ## Concluído
 
@@ -14,20 +14,23 @@
 - PDFs oficiais foram baixados com URL e SHA-256 no manifesto. O recorte rápido NR-06/10/12/17/18/33/35 produziu inicialmente 1.023 candidatos e reteve 974 cláusulas após filtrar títulos/colisões de anexos.
 - Dataset fast-track concluído: 720 pares aceitos, 144 armadilhas de recusa e nenhuma rejeição local. O split tem 600 exemplos de treino e 120 de teste em 120 itens exclusivos, sem `source_id` compartilhado.
 - Geração auditada em 40 lotes pelo `gemini-3.8-flash-medium`: 55 tentativas, 40 sucessos e 15 saídas vazias/JSON inválido descartadas; nenhum fallback sintético local.
+- Código e dados do commit `1a7e408` sincronizados para `C:\nr-assistente`; CLIs compiladas e o split remoto conferido como 600/120.
+- Quatro runs LoRA 0,5B concluídos na RTX 4060 Ti, todos com 600 exemplos, telemetria a cada 2 s e sem atingir o limite: `q05_r8_lr1e4_e1` (90,6 s; loss 2,1155; pico 5.572 MiB), `q05_r8_lr3e4_e2` (234,4 s; loss 1,2676; pico 5.574 MiB), `q05_r32_lr1e4_e2` (222,6 s; loss 1,2518; pico 5.792 MiB) e `q05_r32_lr3e4_e1` (104,6 s; loss 1,3307; pico 5.792 MiB).
+- Transcrição retomada pelo guard `C:\trw-proc\phase21-start-full.ps1`: runner único Running, marker ausente, quatro consumidores FVM nas duas lanes, sem ledger/batch owner.
 
 ## Próximo
 
-1. Sincronizar código/dados para `C:\nr-assistente` e executar os quatro runs 0,5B na janela guardada.
-2. Avaliar, gerar gráficos/screenshot e concluir documentação em pt-BR.
+1. Avaliar base e quatro adapters no teste retido; comparar temperaturas 0,2/0,7 no melhor modelo e julgar 40 exemplos.
+2. Gerar gráficos/screenshot e concluir documentação em pt-BR com números medidos.
 3. Após o commit de submissão, abrir `experimento-completo` para ampliar NRs, pares e runs.
 
 ## Janelas GPU
 
 | Janela | Início | Fim | Minutos | Uso | Estado final |
 |---|---|---|---:|---|---|
-| — | — | — | 0 | Nenhuma janela iniciada | Transcrição Running; marker ausente; FVM Running |
+| 1 | 19:42:59 | 19:54:54 | 12 | Quatro runs LoRA Qwen2.5-0.5B | Transcrição Running; marker ausente; FVM Running (4 processos) |
 
-Total GPU desta tarefa: **0 min / limite aproximado de 300 min**.
+Total GPU desta tarefa: **12 min / limite aproximado de 300 min**.
 
 ## Bloqueios/segurança
 

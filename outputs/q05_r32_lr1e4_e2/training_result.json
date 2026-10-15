@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "run_id": "q05_r32_lr1e4_e2",
+  "config": {
+    "train_file": "data/processed/train.jsonl",
+    "max_seq_length": 256,
+    "per_device_train_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.01,
+    "logging_steps": 5,
+    "save_strategy": "epoch",
+    "max_runtime_minutes": 11,
+    "seed": 47,
+    "id": "q05_r32_lr1e4_e2",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "rank": 32,
+    "learning_rate": 0.0001,
+    "epochs": 2
+  },
+  "examples": 600,
+  "used_4bit": false,
+  "quantization_fallback": null,
+  "started_unix": 1792108147.7080731,
+  "finished_unix": 1792108371.1053097,
+  "train_metrics": {
+    "train_runtime": 222.6124,
+    "train_samples_per_second": 5.391,
+    "train_steps_per_second": 0.341,
+    "total_flos": 374695475644416.0,
+    "train_loss": 1.2517800307587574,
+    "epoch": 2.0
+  },
+  "global_steps": 76,
+  "epochs_completed": 2.0,
+  "runtime_limit_reached": false,
+  "gpu": {
+    "samples": 109,
+    "gpu_name": "NVIDIA GeForce RTX 4060 Ti",
+    "peak_vram_mib": 5792.0,
+    "mean_utilization_pct": 22.165137614678898
+  },
+  "environment": {
+    "python": "3.11.0",
+    "torch": "2.12.1+cu130",
+    "cuda": "13.0"
+  }
+}
