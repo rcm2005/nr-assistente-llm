@@ -1,6 +1,6 @@
 # Estado do projeto
 
-Última atualização: 2026-10-15 19:05 EDT
+Última atualização: 2026-10-15 19:08 EDT
 
 ## Concluído
 
@@ -10,14 +10,15 @@
 - Baseline da Lightning: `TRWPhase10` Running, um runner, marker de pausa ausente, quatro consumidores FVM nas duas lanes, sem HOLD/restore ledger/batch owner e 7.489 MiB disponíveis.
 - Procedimento de janela definido: criar somente o marker normal de pausa e aguardar o runner ficar Ready; manter FVM ativos. Retomar pelo guard hash-pinned `C:\trw-proc\phase21-start-full.ps1`, nunca por `lightning resume-transcription`.
 - Fontes oficiais localizadas na página de NRs vigentes do MTE; licenças Apache-2.0 dos dois Qwen2.5 confirmadas.
+- Ambiente criado em `C:\nr-assistente\.venv` com Python 3.11.0 e PyTorch 2.12.1+cu130; `torch.cuda.is_available()` retornou `True` e uma multiplicação CUDA 2048x2048 foi concluída na RTX 4060 Ti. Saídas reais estão em `docs/gpu.md`.
+- PDFs oficiais foram baixados com URL e SHA-256 no manifesto. O recorte rápido NR-06/10/12/17/18/33/35 produziu 1.023 chunks candidatos por item.
 
 ## Próximo
 
-1. Implementar pipeline de download, extração por item, geração/validação e split sem vazamento.
-2. Baixar textos vigentes oficiais e gerar 2.000–3.000 pares com Gemini Flash.
-3. Preparar e testar pipeline de treino/eval/frontend.
-4. Sincronizar para `C:\nr-assistente`, instalar ambiente CUDA compatível e executar pelo menos seis runs em janelas de até 90 min.
-5. Avaliar, gerar gráficos/screenshots e concluir documentação em pt-BR.
+1. Concluir a geração real fast-track de 720 pares com Gemini Flash, validar citações e criar split de teste agrupado por item.
+2. Sincronizar código/dados para `C:\nr-assistente` e executar os quatro runs 0,5B na janela guardada.
+3. Avaliar, gerar gráficos/screenshot e concluir documentação em pt-BR.
+4. Após o commit de submissão, abrir `experimento-completo` para ampliar NRs, pares e runs.
 
 ## Janelas GPU
 
@@ -31,4 +32,3 @@ Total GPU desta tarefa: **0 min / limite aproximado de 300 min**.
 
 - Nenhum bloqueio do Kaspersky, Smart App Control ou Windows Security observado.
 - Não foram tocados serviços, containers, gravação, HOLD, documentos FVM/TRW ou credenciais.
-
