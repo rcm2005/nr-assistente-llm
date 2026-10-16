@@ -1,4 +1,4 @@
-# Matriz fast-track. Resultados so existem depois que scripts/train.py terminar cada run.
+# Configurações do experimento. Os resultados são gravados após cada treino concluído.
 defaults:
   train_file: data/processed/train.jsonl
   max_seq_length: 256

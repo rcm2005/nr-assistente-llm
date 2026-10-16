@@ -70,7 +70,7 @@ def quantization_config(mode: str) -> tuple[Any | None, bool]:
 
 def run_training(config: dict[str, Any], output_root: Path) -> dict[str, Any]:
     if not torch.cuda.is_available():
-        raise RuntimeError("Treinamento fast-track exige CUDA; nenhum dispositivo CUDA foi detectado")
+        raise RuntimeError("Treinamento exige CUDA; nenhum dispositivo CUDA foi detectado")
     set_seed(int(config["seed"]))
     output_dir = output_root / config["id"]
     if (output_dir / "adapter_config.json").exists():

@@ -9,7 +9,7 @@ respostas sintéticas, fundamentadas em PDFs oficiais do Ministério do Trabalho
 
 ## Problema e recorte
 
-O fast-track usa NR-06, NR-10, NR-12, NR-17, NR-18, NR-33 e NR-35. Os textos são baixados da página
+O experimento usa NR-06, NR-10, NR-12, NR-17, NR-18, NR-33 e NR-35. Os textos são baixados da página
 de NRs vigentes do MTE, têm URL e SHA-256 registrados em `data/raw/manifest.json` e são divididos
 por item normativo. Perguntas fora do trecho-fonte são usadas como armadilhas para treinar recusa.
 
@@ -56,8 +56,9 @@ python scripts/download_nrs.py --only 6 10 12 17 18 33 35
 python scripts/extract_items.py --only 6 10 12 17 18 33 35 `
   --output data/interim/items-subset.jsonl
 
-# Geração autenticada pelo agy, validação e split sem item compartilhado
+# Geração opcional do dataset com acesso ao agy; o dataset usado já está neste repositório
 python scripts/generate_dataset.py --target 720 --batch-size 18 --parallel 2
+# Para reproduzir somente treino e avaliação, comece pelos arquivos data/processed/
 python scripts/validate_dataset.py
 python scripts/split_dataset.py --test-size 120
 python scripts/build_dataset_card.py

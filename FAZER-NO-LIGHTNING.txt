@@ -27,9 +27,7 @@ para repetir a evidência, se necessário.
    Se a pasta docs\img não existir, crie-a antes no Explorer ou no terminal:
    New-Item -ItemType Directory -Force C:\nr-assistente\docs\img
 
-5. Se refizer o print, avise no chat que o arquivo foi salvo nesse caminho.
-   Não precisa me enviar senha ou token.
+5. Se refizer o print, substitua o arquivo no mesmo caminho para manter a
+   evidência atualizada no projeto.
 
 PROJETO: https://github.com/rcm2005/nr-assistente-llm
-ATENÇÃO: o repositório está PRIVADO. Para o professor abrir o link, é preciso
-adicioná-lo como colaborador ou torná-lo público antes da entrega.
