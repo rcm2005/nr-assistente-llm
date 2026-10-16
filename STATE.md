@@ -7,7 +7,8 @@
 - Dez perguntas por modelo julgadas adicionalmente por Gemini; registros em `results/eval/`.
 - Interface Gradio instanciada na Lightning, com cinco modelos disponíveis e GPU detectada.
 - Adapter `q05_r8_lr3e4_e2` incluído para demonstração e código, relatório e gráficos preparados.
+- Print real da sessão gráfica do VSCode com a saída da verificação CUDA em `docs/img/vscode-gpu.png`.
 
-**Pendente da sessão gráfica do usuário:** captura real da GPU dentro do VSCode em `docs/img/vscode-gpu.png`. O procedimento está em `docs/gpu.md`. O arquivo não foi simulado.
+O procedimento e a saída da verificação estão em `docs/gpu.md` e `docs/gpu-proof.txt`.
 
 **Limitação principal:** somente 1/94 citações exatas nas perguntas respondíveis com o melhor adapter; o protótipo não está pronto para consulta normativa autônoma.

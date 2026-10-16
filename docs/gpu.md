@@ -63,10 +63,15 @@ C:\nr-assistente\.venv\Scripts\Activate.ps1
 python -c "import torch; print(torch.__version__); print(torch.cuda.is_available()); print(torch.cuda.get_device_name(0)); print(torch.version.cuda)"
 ```
 
-## Captura solicitada no VS Code
+## Captura no VS Code
 
-A captura visual ainda precisa ser feita pelo Rafael na sessão gráfica da
-Lightning; ela não foi simulada. Passos:
+A captura real da sessão gráfica da Lightning foi feita em **15/10/2026 às
+23:39 BRT**, com [o arquivo de saída dos comandos](gpu-proof.txt) aberto no
+VSCode. O print está em [docs/img/vscode-gpu.png](img/vscode-gpu.png).
+Os comandos exibidos no arquivo foram executados na Lightning por SSH, e a
+captura mostra o arquivo aberto no VSCode da sessão gráfica ativa.
+
+Para repetir a captura:
 
 1. Abrir `C:\nr-assistente` no VS Code.
 2. Pressionar `Ctrl+Shift+P`, escolher **Python: Select Interpreter** e apontar
@@ -82,5 +87,4 @@ Lightning; ela não foi simulada. Passos:
    com `NVIDIA GeForce RTX 4060 Ti` e a saída `CUDA: True` e `cálculo na GPU`.
 5. Usar `Win+Shift+S` e salvar como `docs/img/vscode-gpu.png`.
 
-O caminho acima é o destino esperado; este documento não afirma que a imagem
-já existe.
+![GPU e verificação CUDA no VSCode](img/vscode-gpu.png)

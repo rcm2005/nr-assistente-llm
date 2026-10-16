@@ -1,0 +1,35 @@
+NR-ASSISTENTE — COMO REPETIR O PRINT DA GPU NO VSCODE (15/10/2026)
+
+O print real e a verificação CUDA já foram concluídos por SSH e estão em
+docs\img\vscode-gpu.png e docs\gpu-proof.txt. Os passos abaixo servem
+para repetir a evidência, se necessário.
+
+1. Na Lightning (Windows), abra o VSCode e escolha Arquivo > Abrir Pasta:
+   C:\nr-assistente
+
+2. No VSCode, abra o terminal integrado com Ctrl+`.
+   O terminal deve ser PowerShell. Cole os DOIS comandos abaixo, um por vez:
+
+   nvidia-smi
+
+   & "C:\nr-assistente\.venv\Scripts\python.exe" -c "import torch; x=torch.randn((2048,2048),device='cuda'); y=x@x; torch.cuda.synchronize(); print('CUDA:',torch.cuda.is_available()); print('GPU:',torch.cuda.get_device_name(0)); print('PyTorch:',torch.__version__); print('CUDA do PyTorch:',torch.version.cuda); print('Calculo na GPU:',tuple(y.shape))"
+
+3. Confira se aparecem:
+   - NVIDIA GeForce RTX 4060 Ti no nvidia-smi e na saída Python;
+   - CUDA: True;
+   - Calculo na GPU: (2048, 2048).
+   O segundo comando de fato executa uma multiplicação de matrizes na GPU.
+
+4. Deixe visíveis na MESMA imagem a janela do VSCode, o terminal integrado,
+   o nvidia-smi e a saída Python. Pressione Win+Shift+S, selecione a área
+   e salve o print como:
+   C:\nr-assistente\docs\img\vscode-gpu.png
+   Se a pasta docs\img não existir, crie-a antes no Explorer ou no terminal:
+   New-Item -ItemType Directory -Force C:\nr-assistente\docs\img
+
+5. Se refizer o print, avise no chat que o arquivo foi salvo nesse caminho.
+   Não precisa me enviar senha ou token.
+
+PROJETO: https://github.com/rcm2005/nr-assistente-llm
+ATENÇÃO: o repositório está PRIVADO. Para o professor abrir o link, é preciso
+adicioná-lo como colaborador ou torná-lo público antes da entrega.

@@ -1,0 +1,15 @@
+NR-ASSISTENTE | EVIDENCIA GPU | COMANDOS EXECUTADOS NA LIGHTNING
+Data: 2026-10-15 23:39:04 -03:00
+
+PS> nvidia-smi --query-gpu=name,driver_version,memory.total,memory.used,utilization.gpu --format=csv
+name, driver_version, memory.total [MiB], memory.used [MiB], utilization.gpu [%]
+NVIDIA GeForce RTX 4060 Ti, 610.88, 8188 MiB, 1093 MiB, 0 %
+
+PS> & C:\nr-assistente\.venv\Scripts\python.exe -c "import torch; x=torch.randn((2048,2048),device='cuda'); y=x@x; torch.cuda.synchronize(); ..."
+CUDA: True
+GPU: NVIDIA GeForce RTX 4060 Ti
+PyTorch: 2.12.1+cu130
+CUDA do PyTorch: 13.0
+Calculo na GPU: (2048, 2048)
+
+O tensor 2048x2048 foi criado e multiplicado em cuda; synchronize() concluiu sem erro.

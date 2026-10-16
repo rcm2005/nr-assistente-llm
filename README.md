@@ -35,6 +35,8 @@ Requer Python 3.11, o driver NVIDIA medido em [docs/gpu.md](docs/gpu.md) e Power
 ```powershell
 py -3.11 -m venv C:\nr-assistente\.venv
 C:\nr-assistente\.venv\Scripts\python.exe -m pip install --upgrade pip
+C:\nr-assistente\.venv\Scripts\python.exe -m pip install torch==2.12.1 `
+  --index-url https://download.pytorch.org/whl/cu130
 C:\nr-assistente\.venv\Scripts\python.exe -m pip install `
   -r C:\nr-assistente\requirements.txt `
   --extra-index-url https://download.pytorch.org/whl/cu130
@@ -89,6 +91,7 @@ as citações produzidas pelo modelo devem ser conferidas na NR oficial.
 
 - [Relatório técnico](docs/relatorio.md)
 - [Ambiente e evidências da GPU](docs/gpu.md)
+- [Print real da GPU no VSCode](docs/img/vscode-gpu.png)
 - [Cartão do dataset](docs/dataset-card.md)
 - [Roteiro de apresentação](docs/apresentacao.md)
 
