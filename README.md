@@ -88,11 +88,14 @@ excluídos do Git por tamanho. A interface lista somente os adapters presentes n
 A interface é uma demonstração acadêmica;
 as citações produzidas pelo modelo devem ser conferidas na NR oficial.
 
+![Interface Gradio em execução na Lightning](docs/img/frontend.png)
+
 ## Documentação
 
 - [Relatório técnico](docs/relatorio.md)
 - [Ambiente e evidências da GPU](docs/gpu.md)
 - [Print real da GPU no VSCode](docs/img/vscode-gpu.png)
+- [Captura do frontend Gradio](docs/img/frontend.png)
 - [Cartão do dataset](docs/dataset-card.md)
 - [Roteiro de apresentação](docs/apresentacao.md)
 

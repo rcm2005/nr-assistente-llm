@@ -88,6 +88,8 @@ extraídas, velocidade e utilização da GPU. Ela foi instanciada na Lightning c
 visíveis e a RTX 4060 Ti detectada. O adapter de melhor compromisso foi incluído no repositório.
 As instruções de instalação, treino, avaliação e execução estão no [README](../README.md).
 
+![Frontend Gradio em execução local na Lightning](img/frontend.png)
+
 ## Limitações e próximos passos
 
 O recorte cobre sete NRs e usa dados gerados automaticamente. Há somente uma semente e uma
