@@ -1,0 +1,47 @@
+[
+  {
+    "judge_model": "gemini-3.8-flash-medium",
+    "evaluated_model": "base",
+    "temperature": 0.2,
+    "examples": 10,
+    "correcao": 0.1,
+    "fundamentacao": 0.0,
+    "utilidade": 0.1
+  },
+  {
+    "judge_model": "gemini-3.8-flash-medium",
+    "evaluated_model": "r32_lr1e4_e2",
+    "temperature": 0.2,
+    "examples": 10,
+    "correcao": 0.8,
+    "fundamentacao": 0.6,
+    "utilidade": 0.8
+  },
+  {
+    "judge_model": "gemini-3.8-flash-medium",
+    "evaluated_model": "r32_lr3e4_e1",
+    "temperature": 0.2,
+    "examples": 10,
+    "correcao": 0.6,
+    "fundamentacao": 0.6,
+    "utilidade": 0.6
+  },
+  {
+    "judge_model": "gemini-3.8-flash-medium",
+    "evaluated_model": "r8_lr1e4_e1",
+    "temperature": 0.2,
+    "examples": 10,
+    "correcao": 0.0,
+    "fundamentacao": 0.0,
+    "utilidade": 0.0
+  },
+  {
+    "judge_model": "gemini-3.8-flash-medium",
+    "evaluated_model": "r8_lr3e4_e2",
+    "temperature": 0.2,
+    "examples": 10,
+    "correcao": 0.6,
+    "fundamentacao": 0.6,
+    "utilidade": 0.6
+  }
+]

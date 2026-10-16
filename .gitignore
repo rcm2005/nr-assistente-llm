@@ -17,6 +17,7 @@ models/
 outputs/*/checkpoint-*/
 outputs/*/adapter_model.safetensors
 *.safetensors
+!outputs/q05_r8_lr3e4_e2/adapter_model.safetensors
 *.bin
 *.pt
 *.pth

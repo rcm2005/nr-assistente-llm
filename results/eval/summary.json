@@ -1,0 +1,72 @@
+[
+  {
+    "model": "base",
+    "temperature": 0.2,
+    "examples": 120,
+    "citation_exact_accuracy": 0.21666666666666667,
+    "citation_precision": 0.21666666666666667,
+    "citation_recall": 0.21666666666666667,
+    "refusal_precision": 0.6,
+    "refusal_recall": 0.11538461538461539,
+    "rouge_l": 0.12582322735101079,
+    "tokens_per_second": 28.926176288734073,
+    "peak_allocated_vram_mib": 960.1298828125,
+    "telemetry_peak_vram_mib": 2062.0
+  },
+  {
+    "model": "r32_lr1e4_e2",
+    "temperature": 0.2,
+    "examples": 120,
+    "citation_exact_accuracy": 0.175,
+    "citation_precision": 0.175,
+    "citation_recall": 0.175,
+    "refusal_precision": 0.7,
+    "refusal_recall": 0.8076923076923077,
+    "rouge_l": 0.35081151954750284,
+    "tokens_per_second": 13.176850292253665,
+    "peak_allocated_vram_mib": 1028.220703125,
+    "telemetry_peak_vram_mib": 2035.0
+  },
+  {
+    "model": "r32_lr3e4_e1",
+    "temperature": 0.2,
+    "examples": 120,
+    "citation_exact_accuracy": 0.18333333333333332,
+    "citation_precision": 0.18333333333333332,
+    "citation_recall": 0.18333333333333332,
+    "refusal_precision": 0.6666666666666666,
+    "refusal_recall": 0.7692307692307693,
+    "rouge_l": 0.35745554932084783,
+    "tokens_per_second": 13.287422100353671,
+    "peak_allocated_vram_mib": 1028.314453125,
+    "telemetry_peak_vram_mib": 2035.0
+  },
+  {
+    "model": "r8_lr1e4_e1",
+    "temperature": 0.2,
+    "examples": 120,
+    "citation_exact_accuracy": 0.10833333333333334,
+    "citation_precision": 0.10833333333333334,
+    "citation_recall": 0.10833333333333334,
+    "refusal_precision": 0.3,
+    "refusal_recall": 0.11538461538461539,
+    "rouge_l": 0.1882932885960451,
+    "tokens_per_second": 12.638316958119532,
+    "peak_allocated_vram_mib": 977.78173828125,
+    "telemetry_peak_vram_mib": 1933.0
+  },
+  {
+    "model": "r8_lr3e4_e2",
+    "temperature": 0.2,
+    "examples": 120,
+    "citation_exact_accuracy": 0.19166666666666668,
+    "citation_precision": 0.19166666666666668,
+    "citation_recall": 0.19166666666666668,
+    "refusal_precision": 0.6875,
+    "refusal_recall": 0.8461538461538461,
+    "rouge_l": 0.35316016938299566,
+    "tokens_per_second": 14.867486498143105,
+    "peak_allocated_vram_mib": 977.876953125,
+    "telemetry_peak_vram_mib": 1933.0
+  }
+]

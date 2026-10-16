@@ -1,38 +1,13 @@
-# Estado do projeto
+# Estado da entrega — 15/10/2026
 
-Última atualização: 2026-10-15 19:56 EDT
+- Sete NRs oficiais no recorte; manifesto com URLs e SHA-256.
+- 720 pares sintéticos validados: 600 treino, 120 teste, split por item normativo.
+- Quatro treinos LoRA concluídos na RTX 4060 Ti; resultados e telemetria em `outputs/`.
+- Modelo base e quatro adapters avaliados nos 120 casos retidos na GPU; previsões, métricas e telemetria em `results/eval/`.
+- Dez perguntas por modelo julgadas adicionalmente por Gemini; registros em `results/eval/`.
+- Interface Gradio instanciada na Lightning, com cinco modelos disponíveis e GPU detectada.
+- Adapter `q05_r8_lr3e4_e2` incluído para demonstração e código, relatório e gráficos preparados.
 
-## Concluído
+**Pendente da sessão gráfica do usuário:** captura real da GPU dentro do VSCode em `docs/img/vscode-gpu.png`. O procedimento está em `docs/gpu.md`. O arquivo não foi simulado.
 
-- Repositório iniciado localmente; nenhum remoto será criado.
-- Memória do host verificada: 3,4 GiB disponíveis; trabalho pesado reservado à Lightning.
-- Manual operacional e seções 28/28d do histórico consultados.
-- Baseline da Lightning: `TRWPhase10` Running, um runner, marker de pausa ausente, quatro consumidores FVM nas duas lanes, sem HOLD/restore ledger/batch owner e 7.489 MiB disponíveis.
-- Procedimento de janela definido: criar somente o marker normal de pausa e aguardar o runner ficar Ready; manter FVM ativos. Retomar pelo guard hash-pinned `C:\trw-proc\phase21-start-full.ps1`, nunca por `lightning resume-transcription`.
-- Fontes oficiais localizadas na página de NRs vigentes do MTE; licenças Apache-2.0 dos dois Qwen2.5 confirmadas.
-- Ambiente criado em `C:\nr-assistente\.venv` com Python 3.11.0 e PyTorch 2.12.1+cu130; `torch.cuda.is_available()` retornou `True` e uma multiplicação CUDA 2048x2048 foi concluída na RTX 4060 Ti. Saídas reais estão em `docs/gpu.md`.
-- PDFs oficiais foram baixados com URL e SHA-256 no manifesto. O recorte rápido NR-06/10/12/17/18/33/35 produziu inicialmente 1.023 candidatos e reteve 974 cláusulas após filtrar títulos/colisões de anexos.
-- Dataset fast-track concluído: 720 pares aceitos, 144 armadilhas de recusa e nenhuma rejeição local. O split tem 600 exemplos de treino e 120 de teste em 120 itens exclusivos, sem `source_id` compartilhado.
-- Geração auditada em 40 lotes pelo `gemini-3.8-flash-medium`: 55 tentativas, 40 sucessos e 15 saídas vazias/JSON inválido descartadas; nenhum fallback sintético local.
-- Código e dados do commit `1a7e408` sincronizados para `C:\nr-assistente`; CLIs compiladas e o split remoto conferido como 600/120.
-- Quatro runs LoRA 0,5B concluídos na RTX 4060 Ti, todos com 600 exemplos, telemetria a cada 2 s e sem atingir o limite: `q05_r8_lr1e4_e1` (90,6 s; loss 2,1155; pico 5.572 MiB), `q05_r8_lr3e4_e2` (234,4 s; loss 1,2676; pico 5.574 MiB), `q05_r32_lr1e4_e2` (222,6 s; loss 1,2518; pico 5.792 MiB) e `q05_r32_lr3e4_e1` (104,6 s; loss 1,3307; pico 5.792 MiB).
-- Transcrição retomada pelo guard `C:\trw-proc\phase21-start-full.ps1`: runner único Running, marker ausente, quatro consumidores FVM nas duas lanes, sem ledger/batch owner.
-
-## Próximo
-
-1. Avaliar base e quatro adapters no teste retido; comparar temperaturas 0,2/0,7 no melhor modelo e julgar 40 exemplos.
-2. Gerar gráficos/screenshot e concluir documentação em pt-BR com números medidos.
-3. Após o commit de submissão, abrir `experimento-completo` para ampliar NRs, pares e runs.
-
-## Janelas GPU
-
-| Janela | Início | Fim | Minutos | Uso | Estado final |
-|---|---|---|---:|---|---|
-| 1 | 19:42:59 | 19:54:54 | 12 | Quatro runs LoRA Qwen2.5-0.5B | Transcrição Running; marker ausente; FVM Running (4 processos) |
-
-Total GPU desta tarefa: **12 min / limite aproximado de 300 min**.
-
-## Bloqueios/segurança
-
-- Nenhum bloqueio do Kaspersky, Smart App Control ou Windows Security observado.
-- Não foram tocados serviços, containers, gravação, HOLD, documentos FVM/TRW ou credenciais.
+**Limitação principal:** somente 1/94 citações exatas nas perguntas respondíveis com o melhor adapter; o protótipo não está pronto para consulta normativa autônoma.
