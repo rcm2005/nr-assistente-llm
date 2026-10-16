@@ -71,11 +71,16 @@ Lightning; ela não foi simulada. Passos:
 1. Abrir `C:\nr-assistente` no VS Code.
 2. Pressionar `Ctrl+Shift+P`, escolher **Python: Select Interpreter** e apontar
    para `C:\nr-assistente\.venv\Scripts\python.exe`.
-3. Abrir o terminal integrado do VS Code e executar o comando de checagem
-   básica acima.
-4. Manter visíveis no mesmo enquadramento o caminho do interpretador e a saída
-   com `True`, `NVIDIA GeForce RTX 4060 Ti` e `13.0`.
-5. Salvar a imagem no repositório como `docs/img/vscode-gpu.png`.
+3. Abrir o terminal integrado do VS Code com `Ctrl+\`` e executar:
+
+   ```powershell
+   nvidia-smi
+   C:\nr-assistente\.venv\Scripts\python.exe -c "import torch; x=torch.randn(2048,2048,device='cuda'); y=x@x; torch.cuda.synchronize(); print('CUDA:',torch.cuda.is_available(),'| GPU:',torch.cuda.get_device_name(0),'| PyTorch:',torch.__version__,'| cálculo na GPU:',y.shape)"
+   ```
+
+4. Manter visíveis no mesmo enquadramento a janela do VS Code, o `nvidia-smi`
+   com `NVIDIA GeForce RTX 4060 Ti` e a saída `CUDA: True` e `cálculo na GPU`.
+5. Usar `Win+Shift+S` e salvar como `docs/img/vscode-gpu.png`.
 
 O caminho acima é o destino esperado; este documento não afirma que a imagem
 já existe.
